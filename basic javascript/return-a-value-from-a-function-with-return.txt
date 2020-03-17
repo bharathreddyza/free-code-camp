@@ -1,0 +1,14 @@
+// Example
+function minusSeven(num) {
+  return num - 7;
+}
+
+// Only change code below this line
+function timesFive(x){
+  var a =x*5;
+  return a
+
+}
+
+
+console.log(minusSeven(10));
