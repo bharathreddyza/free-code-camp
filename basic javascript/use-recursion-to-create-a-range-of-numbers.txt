@@ -1,0 +1,11 @@
+function rangeOfNumbers(startNum, endNum) {
+  var numbers = [];
+    if(startNum == endNum){
+      return[startNum];
+    }else{
+       numbers = rangeOfNumbers(startNum+1 ,endNum)
+        numbers.unshift(startNum);
+        return numbers
+      }
+    
+};
